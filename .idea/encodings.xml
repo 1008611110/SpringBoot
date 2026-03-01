@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-codec/commons-codec/1.11" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-codec/commons-codec/1.11/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-codec/commons-codec/1.11/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.11.0" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.11.0/src/main/java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.11.0/src/main/resources" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.5" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.5/src/main/java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.5/src/main/resources" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.6" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.6/src/main/java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.6/src/main/resources" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/boot2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/boot/pom.xml" />
+        <option value="$PROJECT_DIR$/boot2/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-maven-3.9.12/develop/asm/asm/3.3.1/asm-3.3.1.pom" />
+        <option value="$PROJECT_DIR$/apache-maven-3.9.12/develop/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom" />
+        <option value="$PROJECT_DIR$/apache-maven-3.9.12/develop/mysql/mysql-connector-java/8.0.33/mysql-connector-java-8.0.33.pom" />
+        <option value="$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.5/commons-io-2.5.pom" />
+        <option value="$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.6/commons-io-2.6.pom" />
+        <option value="$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom" />
+        <option value="$PROJECT_DIR$/apache-maven-3.9.12/develop/aopalliance/aopalliance/1.0/aopalliance-1.0.pom" />
+        <option value="$PROJECT_DIR$/apache-maven-3.9.12/develop/commons-codec/commons-codec/1.11/commons-codec-1.11.pom" />
+        <option value="$PROJECT_DIR$/demo2/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/boot2/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" default="true" project-jdk-name="25" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
