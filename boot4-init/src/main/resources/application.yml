@@ -1,0 +1,9 @@
+
+
+server:
+  port: 8090
+  servlet:
+    context-path: /myweb
+spring:
+  profiles:
+    active: dev
