@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+<button onclick="fetchJson()">获取用户</button>
+<script>
+    function fetchJson(){
+        fetch('http://localhost:8085/detail',{
+          body: JSON.stringify({
+              name:'张三',
+              age:14,
+              sex:'男'
+          }),
+            headers:{
+              'Content-Type':'application/json'
+            },
+            method:'post',
+        }).then(function (response) {
+            console.log(response.body);
+        })
+    }
+</script>
+
+
+
+</body>
+</html>

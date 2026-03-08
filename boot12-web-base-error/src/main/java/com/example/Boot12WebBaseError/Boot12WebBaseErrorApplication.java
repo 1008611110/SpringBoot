@@ -1,13 +1,13 @@
-package com.example.boot7websimpeparam;
+package com.example.Boot12WebBaseError;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Boot7WebSimpeParamApplication {
+public class Boot12WebBaseErrorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Boot7WebSimpeParamApplication.class, args);
+        SpringApplication.run(Boot12WebBaseErrorApplication.class, args);
     }
 
 }

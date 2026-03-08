@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+
+<form action="/detaile1" method="get">
+    用户名id:<input type="text" name="id">
+    <input type="submit" value="提交">
+</form>
+<br><br><br>
+<button onclick="fetchJson()">返回ajax请求</button>
+<script>
+    function fetchJson(){
+        fetch('http://localhost:8085/detaile2',{
+          body: JSON.stringify({
+              name:'张三',
+              age:14,
+              sex:'男'
+          }),
+            headers:{
+              'Content-Type':'application/json'
+            },
+            method:'post',
+        }).then(function (response) {
+            console.log(response.body);
+        })
+    }
+</script>
+
+
+
+</body>
+</html>

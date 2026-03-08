@@ -15,7 +15,40 @@
 <form action="/user/add" method="post">
     <input name="name" value="李四"> <br>
     <input name="age" value="90">   <br>
-    <input type="submit" value="POST注册新用户">
+    <input type="submit" value="POST注册新用户"> <br><br>
 </form>
+<form action="/user/myfile" method="post">
+    <input type="file" name="myfile" > <br><br>
+    <input type="submit" value="提交">
+</form>
+
+<form action="/user/object" method="get">
+    <input name="name" value="李四"> <br>
+    <input name="age" value="12">   <br>
+    <input name="sex" value="男">   <br>
+    <input type="submit" value="object注册新用户"> <br><br>
+</form> <br> <br>
+
+<button onclick="fetchJson()">获取用户</button>
+<script>
+    function fetchJson(){
+        fetch('http://localhost:8085/user/json',{
+          body: JSON.stringify({
+              name:'张三',
+              age:14,
+              sex:'男'
+          }),
+            headers:{
+              'Content-Type':'application/json'
+            },
+            method:'post',
+        }).then(function (response) {
+            console.log(response.body);
+        })
+    }
+</script>
+
+
+
 </body>
 </html>
