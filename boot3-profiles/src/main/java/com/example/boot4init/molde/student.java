@@ -1,4 +1,4 @@
-package com.example.boot3profiles.molde;
+package com.example.boot4init.molde;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

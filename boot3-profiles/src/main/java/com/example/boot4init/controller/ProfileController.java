@@ -1,8 +1,7 @@
-package com.example.boot3profiles.controller;
+package com.example.boot4init.controller;
 
-import com.example.boot3profiles.molde.student;
+import com.example.boot4init.molde.student;
 import jakarta.annotation.Resource;
-import org.springframework.context.annotation.Profile;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
