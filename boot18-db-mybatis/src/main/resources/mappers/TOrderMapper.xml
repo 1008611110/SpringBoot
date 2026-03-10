@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.boot18dbmybatis.mapper.TOrderMapper">
+
+    <!--添加操作-->
+    <insert id="insertOrder">
+        insert into t_order(id,code,stock,money) values (#{id},#{code},#{stock},#{money})
+    </insert>
+
+    <!--查询操作-->
+    <select id="selectOrderbyif" resultType="com.example.boot18dbmybatis.domain.TOrder">
+        select id,code,stock,money from t_order where id=#{id}
+    </select>
+
+</mapper>
